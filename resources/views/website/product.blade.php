@@ -1,543 +1,6 @@
-﻿<!DOCTYPE html>
-<html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <title>WinPolimers</title>
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.png" />
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/slider-range.css" />
-    <link rel="stylesheet" href="assets/css/main.css?v=5.6" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-</head>
-
-<body>
-
-    <div class="social-icons">
-        <a href="https://api.whatsapp.com/send?phone=+919497073174&amp;text=Hi" class="whatsapp" target="_blank">
-            <img src="assets/imgs/theme/icons/whatsapp.svg" alt="" />
-            
-          
-      
-      
-        </a>
-      
-      
-          <a href="#" class="whatsapp" target="_blank">
-            <img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" />
-        </a>
-      
-        <a href="tel:+919497073174" class="call_action" target="_blank"> 
-            <img src="assets/imgs/theme/icons/phone.svg" alt="" />
-        </a>
-
-
-        <a href="#" class="call_action" target="_blank"> 
-            <!-- <i class="fas fa-phone-volume" aria-hidden="true"></i> -->
-
-            <img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" />
-          </a>
-
-     
-        
-      
-      
-      </div>
-        <!-- Quick view -->
-        <div class="modal fade custom-modal" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12 col-xs-12 mb-md-0 mb-sm-5">
-                                <div class="detail-gallery">
-                                    <span class="zoom-icon"><i class="fi-rs-search"></i></span>
-                                    <!-- MAIN SLIDES -->
-                                    <div class="product-image-slider">
-                                        <figure class="border-radius-10">
-                                            <img src="assets/imgs/shop/product-16-2.jpg" alt="product image" />
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="assets/imgs/shop/product-16-1.jpg" alt="product image" />
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="assets/imgs/shop/product-16-3.jpg" alt="product image" />
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="assets/imgs/shop/product-16-4.jpg" alt="product image" />
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="assets/imgs/shop/product-16-5.jpg" alt="product image" />
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="assets/imgs/shop/product-16-6.jpg" alt="product image" />
-                                        </figure>
-                                        <figure class="border-radius-10">
-                                            <img src="assets/imgs/shop/product-16-7.jpg" alt="product image" />
-                                        </figure>
-                                    </div>
-                                    <!-- THUMBNAILS -->
-                                    <!-- <div class="slider-nav-thumbnails">
-                                        <div><img src="assets/imgs/shop/thumbnail-3.jpg" alt="product image" /></div>
-                                        <div><img src="assets/imgs/shop/thumbnail-4.jpg" alt="product image" /></div>
-                                        <div><img src="assets/imgs/shop/thumbnail-5.jpg" alt="product image" /></div>
-                                        <div><img src="assets/imgs/shop/thumbnail-6.jpg" alt="product image" /></div>
-                                        <div><img src="assets/imgs/shop/thumbnail-7.jpg" alt="product image" /></div>
-                                        <div><img src="assets/imgs/shop/thumbnail-8.jpg" alt="product image" /></div>
-                                        <div><img src="assets/imgs/shop/thumbnail-9.jpg" alt="product image" /></div>
-                                    </div> -->
-                                </div>
-                                <!-- End Gallery -->
-                            </div>
-                            <div class="col-md-6 col-sm-12 col-xs-12">
-                                <div class="detail-info pr-30 pl-30">
-                                    <!-- <span class="stock-status out-stock"> Sale Off </span> -->
-                                    <h3 class="title-detail"><a href="shop-product-right.html" class="text-heading">PET Coconut Oil Packaging Bottles 1000ml, 1 Litre</a></h3>
-                                    <div class="product-detail-rating">
-                                        <!-- <div class="product-rate-cover text-end">
-                                            <div class="product-rate d-inline-block">
-                                                <div class="product-rating" style="width: 90%"></div>
-                                            </div>
-                                            <span class="font-small ml-5 text-muted"> (32 reviews)</span>
-                                        </div> -->
-                                    </div>
-                                    <div class="clearfix product-price-cover">
-                                        <div class="product-price primary-color float-left">
-                                            <span class="current-price text-brand">₹7 / Piece</span>
-                                            <!-- <span>
-                                                <span class="save-price font-md color3 ml-15">26% Off</span>
-                                                <span class="old-price font-md ml-15">$52</span>
-                                            </span> -->
-                                        </div>
-                                    </div>
-                                    <div class="detail-extralink mb-30">
-                                        <div class="detail-qty border radius">
-                                            <a href="#" class="qty-down"><i class="fi-rs-angle-small-down"></i></a>
-                                            <span class="qty-val">1</span>
-                                            <a href="#" class="qty-up"><i class="fi-rs-angle-small-up"></i></a>
-                                        </div>
-                                        <div class="product-extra-link2">
-                                            <button type="submit" class="button button-add-to-cart"><i class="fi-rs-shopping-cart"></i>Add to cart</button>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="font-xs">
-                                        <ul>
-                                            <li class="mb-5">Vendor: <span class="text-brand">Nest</span></li>
-                                            <li class="mb-5">MFG:<span class="text-brand"> Jun 4.2022</span></li>
-                                        </ul>
-                                    </div> -->
-                                </div>
-                                <!-- Detail Info -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="social-icons">
-            <a href="https://api.whatsapp.com/send?phone=+919497073174&amp;text=Hi" class="whatsapp" target="_blank">
-                <img src="assets/imgs/theme/icons/whatsapp.svg" alt="" />
-                
-              
-          
-          
-            </a>
-          
-          
-              <a href="#" class="whatsapp" target="_blank">
-                <img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" />
-            </a>
-          
-            <a href="tel:+919497073174" class="call_action" target="_blank"> 
-                <img src="assets/imgs/theme/icons/phone.svg" alt="" />
-            </a>
-    
-    
-            <a href="#" class="call_action" target="_blank"> 
-                <!-- <i class="fas fa-phone-volume" aria-hidden="true"></i> -->
-    
-                <img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" />
-              </a>
-    
-         
-            
-          
-          
-          </div>
-
-
-
-   
-    <header class="header-area header-style-1 header-height-2">
-        <!-- <div class="mobile-promotion">
-        <!-- <div class="mobile-promotion">
-            <span>Grand opening, <strong>up to 15%</strong> off all items. Only <strong>3 days</strong> left</span>
-        </div> -->
-       
-       
-
-
-        <div class="header-middle  d-none d-lg-block">
-            <div class="container pt-15 pb-20 col-xl-10 col-md-12 m-auto">
-                <div class="header-wrap">
-                    <div class="logo logo-width-1">
-                        <a href="index.html"><img src="assets/imgs/theme/logo.png" alt="logo" /></a>
-                    </div>
-
-                    <div class="header-right">
-
-
-                        <div class="header-nav d-none d-lg-flex">
-                         
-                            <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block font-heading">
-                                <nav>
-                                    <ul>
-                                        <!-- <li class="hot-deals"><img src="assets/imgs/theme/icons/icon-hot.svg" alt="hot deals" /><a href="shop-grid-right.html">Deals</a></li> -->
-                                        <li>
-                                            <a  href="index.html">Home </a>
-                                           
-                                        </li>
-                                        <li>
-                                            <a href="about.html">About</a>
-                                        </li>
-                                       
-                                        <li>
-                                            <a href="product.html">Products <i class="fi-rs-angle-down"></i></a>
-                                            <ul class="sub-menu">
-                                                <li><a href="pharmaceutical.html">Pharmaceutical</a></li>
-                                                <li><a href="product.html">Oil Bottles</a></li>
-                                                <li><a href="product.html">⁠Honey and Squash</a></li>
-                                                <li><a href="product.html">⁠Juices</a></li>
-
-                                                <li><a href="cosmetics-and-personal-care.html">PET Jars</a></li>
-                                                <li><a href="product.html">Thinner and Phenyl</a></li>
-                                                <li><a href="product.html">Mineral Water</a></li>
-                                                <li><a href="product.html">⁠HDPE Bottles</a></li>
-                                    
-                                            </ul>
-                                        </li>
-    
-                                        <!-- <li>
-                                            <a href="services.html">Services</a>
-                                        </li> -->
-    
-    
-                                        <li>
-                                            <a href="contact.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="main-categori-wrap d-none d-lg-block">
-                                <a class="categories-button-active" href="#">
-                                    <!-- <span class="fi-rs-apps"></span> -->
-                                     <!-- <span class="et"></span> -->
-                                      All Categories
-                                    <i class="fi-rs-angle-down"></i>
-                                </a>
-                                <div class="categories-dropdown-wrap categories-dropdown-active-large font-heading">
-                                    <div class="d-flex categori-dropdown-inner">
-                                        <ul>
-                                            <li>
-                                                <a href="pharmaceutical.html"> <img src="assets/imgs/theme/icons/cosmetics.png" alt="" />Pharmaceutical</a>
-                                            </li>
-                                            <li>
-                                                <a href="oil.html"> <img src="assets/imgs/theme/icons/food.png" alt="" />Oil Bottles</a>
-                                            </li>
-                                       
-                                        </ul>
-                                        <ul >
-                                            <li>
-                                                <a href="#"> <img src="assets/imgs/theme/icons/pharmaceutical.png" alt="" />Honey & Squash</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"> <img src="assets/imgs/theme/icons/homecare.png" alt="" />Juices</a>
-                                            </li>
-                                       
-                                        </ul>
-
-                                  
-                                    </div>
-                                    <div class="d-flex categori-dropdown-inner">
-                                        <ul>
-                                            <li>
-                                                <a href="product.html"> <img src="assets/imgs/theme/icons/cosmetics.png" alt="" />PET Jars</a>
-                                            </li>
-                                            <li>
-                                                <a href="product.html"> <img src="assets/imgs/theme/icons/food.png" alt="" />Thinner & Phenyl</a>
-                                            </li>
-                                       
-                                        </ul>
-                                        <ul >
-                                            <li>
-                                                <a href="product.html"> <img src="assets/imgs/theme/icons/pharmaceutical.png" alt="" />Mineral Water</a>
-                                            </li>
-                                            <li>
-                                                <a href="product.html"> <img src="assets/imgs/theme/icons/homecare.png" alt="" />HDPE Bottles</a>
-                                            </li>
-                                       
-                                        </ul>
-
-                                  
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        
-                  
-                        <div class="header-action-right">
-                            <div class="header-action-2">
-                  
-                               
-                                <div class="header-action-icon-2">
-                                    <a class="mini-cart-icon" href="https://api.whatsapp.com/send?phone=+919497073174&amp;text=Hi" target="_blank">
-                                        <img alt="Nest" src="assets/imgs/theme/icons/icon-cart.svg" />
-                                        <span class="pro-count blue">2</span>
-                                    </a>
-                                    <a href="cart.html"><span class="lable"></span></a>
-                                    <div class="cart-dropdown-wrap cart-dropdown-hm2">
-                                        <ul>
-                                            <li>
-                                                <div class="shopping-cart-img">
-                                                    <a href="product-detail.html"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
-                                                </div>
-                                                <div class="shopping-cart-title">
-                                                    <h4><a href="product-detail.html">Daisy Casual Bag</a></h4>
-                                                    <h4><span>1 × </span>$800.00</h4>
-                                                </div>
-                                                <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="shopping-cart-img">
-                                                    <a href="product-detail.html"><img alt="Nest" src="assets/imgs/shop/thumbnail-2.jpg" /></a>
-                                                </div>
-                                                <div class="shopping-cart-title">
-                                                    <h4><a href="product-detail.html">Corduroy Shirts</a></h4>
-                                                    <h4><span>1 × </span>$3200.00</h4>
-                                                </div>
-                                                <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="shopping-cart-footer">
-                                            <div class="shopping-cart-total">
-                                                <h4>Total <span>$4000.00</span></h4>
-                                            </div>
-                                            <div class="shopping-cart-button">
-                                                <a href="cart.html" class="outline">View cart</a>
-                                                <a href="checkout.html">Checkout</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-bottom header-bottom-bg-color sticky-bar">
-            <div class="container">
-                <div class="header-wrap header-space-between position-relative">
-                    <div class="logo logo-width-1 d-block d-lg-none">
-                        <a href="index.html"><img src="assets/imgs/theme/logo.png" alt="logo" /></a>
-                    </div>
-
-
-              
-                    <div class="header-action-icon-2 d-block d-lg-none">
-                        <div class="burger-icon burger-icon-white">
-                            <span class="burger-icon-top"></span>
-                            <span class="burger-icon-mid"></span>
-                            <span class="burger-icon-bottom"></span> 
-                        </div>
-                    </div>
-                    <div class="header-action-right d-block d-lg-none">
-                        <div class="header-action-2">
-                            <div class="header-action-icon-2">
-                               
-                                
-                            </div>
-                            <div class="header-action-icon-2">
-                                <a class="mini-cart-icon" href="https://api.whatsapp.com/send?phone=+919497073174&amp;text=Hi" target="_blank">
-                                    <img alt="Nest" src="assets/imgs/theme/icons/icon-cart.svg" />
-                                    <span class="pro-count white">2</span>
-                                </a>
-                                <div class="cart-dropdown-wrap cart-dropdown-hm2">
-                                    <ul>
-                                        <li>
-                                            <div class="shopping-cart-img">
-                                                <a href="product-detail.html"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
-                                            </div>
-                                            <div class="shopping-cart-title">
-                                                <h4><a href="product-detail.html">Plain Striola Shirts</a></h4>
-                                                <h3><span>1 × </span>$800.00</h3>
-                                            </div>
-                                            <div class="shopping-cart-delete">
-                                                <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="shopping-cart-img">
-                                                <a href="product-detail.html"><img alt="Nest" src="assets/imgs/shop/thumbnail-4.jpg" /></a>
-                                            </div>
-                                            <div class="shopping-cart-title">
-                                                <h4><a href="product-detail.html">Macbook Pro 2022</a></h4>
-                                                <h3><span>1 × </span>$3500.00</h3>
-                                            </div>
-                                            <div class="shopping-cart-delete">
-                                                <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="shopping-cart-footer">
-                                        <div class="shopping-cart-total">
-                                            <h4>Total <span>$383.00</span></h4>
-                                        </div>
-                                        <div class="shopping-cart-button">
-                                            <a href="cart.html">View cart</a>
-                                            <a href="checkout.html">Checkout</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-    <div class="mobile-header-active mobile-header-wrapper-style">
-        <div class="mobile-header-wrapper-inner">
-            <div class="mobile-header-top">
-                <div class="mobile-header-logo">
-                    <a href="index.html"><img src="assets/imgs/theme/logo.png" alt="logo" /></a>
-                </div>
-                <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
-                    <button class="close-style search-close">
-                        <i class="icon-top"></i>
-                        <i class="icon-bottom"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="mobile-header-content-area">
-             
-                <div class="mobile-menu-wrap mobile-header-border">
-                    <!-- mobile menu start -->
-                    <nav>
-                        <ul class="mobile-menu font-heading">
-                            <li class="menu-item-has-children">
-                                <a href="index.html">Home</a>
-                               
-                                
-                            </li>
-
-                            <li>
-
-                                <a href="about.html"> About</a>
-                            </li>
-                            
-                            <li class="menu-item-has-children">
-                                <a href="product.html">Products <i class="fi-rs-angle-down"></i></a>
-                                <ul class="dropdown">
-                                    <li><a href="pharmaceutical.html">Pharmaceutical</a></li>
-                                    <li><a href="product.html">Oil Bottles</a></li>
-                                    <li><a href="product.html">⁠Honey and Squash</a></li>
-                                    <li><a href="product.html">⁠Juices</a></li>
-
-                                    <li><a href="cosmetics-and-personal-care.html">PET Jars</a></li>
-                                    <li><a href="product.html">Thinner and Phenyl</a></li>
-                                    <li><a href="product.html">Mineral Water</a></li>
-                                    <li><a href="product.html">⁠HDPE Bottles</a></li>
-                        
-                                </ul>
-                            </li>
-
-                           
-
-                            <!-- <li>
-                                <a href="services.html">Services</a>
-                            </li> -->
-
-                            <li>
-                                <a href="contact.html">Contact Us</a>
-                            </li>
-                            
-                        </ul>
-                    </nav>
-                    <!-- mobile menu end -->
-                </div>
-                <div class="mobile-header-info-wrap">
-                    <div class="single-mobile-header-info">
-                        <a href="contact.html"><i class="fi-rs-marker"></i> Kanjani P O, Thrissur
-                            Kerala </a>
-                    </div>
-                    <!-- <div class="single-mobile-header-info">
-                        <a href="page-login.html"><i class="fi-rs-user"></i>Log In / Sign Up </a>
-                    </div> -->
-                    <div class="single-mobile-header-info">
-                        <a href="#"><i class="fi-rs-headphones"></i>+91 9497 073 174 </a>
-                    </div>
-                </div>
-                <div class="mobile-social-icon mb-50">
-                    <h6 class="mb-15">Follow Us</h6>
-                    <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-                    <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-                    <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-                    <!-- <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a> -->
-                    <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
-                </div>
-                <!-- <div class="site-copyright">Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.</div> -->
-            </div>
-        </div>
-    </div>
-    <!--End header-->
+﻿
+@extends('layouts.app')
+@section('content')
     <main class="main">
         <div class="page-header mt-30 mb-50">
             <div class="container">
@@ -546,12 +9,12 @@
                         <div class="col-xl-3">
                             <h1 class="mb-15">Food & Beverages</h1>
                             <!-- <div class="breadcrumb">
-                                <a href="index.html" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+                                <a href="/" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
                                 <span></span> Shop <span></span> Snack
                             </div> -->
                         </div>
                         <div class="col-xl-9 text-end d-none d-xl-block">
-                     
+
                         </div>
                     </div>
                 </div>
@@ -770,9 +233,9 @@
 
 
 
-                
 
-                
+
+
                 <div class="col-lg-3 primary-sidebar sticky-sidebar">
                     <div class="sidebar-widget  mb-30 ml-30">
                         <h5 class="section-title style-1 mb-30">Category</h5>
@@ -801,24 +264,24 @@
                         </div>
                         <!-- <ul>
                             <li>
-                                <a href="product.html"> <img src="assets/imgs/theme/icons/cosmetics.png" alt="" />Cosmetic & Personal Care</a><span class="count">30</span>
+                                <a href="/product"> <img src="imgs/theme/icons/cosmetics.png" alt="" />Cosmetic & Personal Care</a><span class="count">30</span>
                             </li>
                             <li>
-                                <a href="product.html"> <img src="assets/imgs/theme/icons/food.png" alt="" />Food & Beverages</a><span class="count">35</span>
+                                <a href="/product"> <img src="imgs/theme/icons/food.png" alt="" />Food & Beverages</a><span class="count">35</span>
                             </li>
                             <li>
-                                <a href="product.html"> <img src="assets/imgs/theme/icons/pharmaceutical.png" alt="" />Pharmaceutical </a><span class="count">42</span>
+                                <a href="/product"> <img src="imgs/theme/icons/pharmaceutical.png" alt="" />Pharmaceutical </a><span class="count">42</span>
                             </li>
                             <li>
-                                <a href="product.html"> <img src="assets/imgs/theme/icons/homecare.png" alt="" />Home Care & Chemicals</a><span class="count">68</span>
+                                <a href="/product"> <img src="imgs/theme/icons/homecare.png" alt="" />Home Care & Chemicals</a><span class="count">68</span>
                             </li>
-                         
+
                         </ul> -->
                     </div>
                     <!-- Fillter By Price -->
                     <div class="sidebar-widget price_range range mb-30 ml-30">
                         <h5 class="section-title style-1 mb-30">Fill by price</h5>
-                       
+
                         <div class="list-group">
                             <div class="list-group-item mb-10 mt-10">
                                 <label class="fw-900">Meterial</label>
@@ -834,7 +297,7 @@
                                     <input type="checkbox" class="check">
                                     <label class="form-check-label" ><span>GLASS</span></label>
                                     <br />
-                                    
+
                                     <input type="checkbox" class="check">
                                     <label class="form-check-label" ><span>PP</span></label>
                                 </div>
@@ -863,7 +326,7 @@
                                     <br />
                                     <input type="checkbox" class="check">
                                     <label class="form-check-label" ><span>RECTANGLE</span></label>
-                                   
+
                                 </div>
 
                                 <div  class="col-md-6">
@@ -872,7 +335,7 @@
                                     <br />
                                     <input type="checkbox" class="check">
                                     <label class="form-check-label" ><span>SQUARE</span></label>
-                                    
+
                                 </div>
                                 </div>
                                 </div>
@@ -886,7 +349,7 @@
 
 
 
-                                    
+
                                     <input type="checkbox" class="check">
                                     <label class="form-check-label" ><span>100 GM</span></label>
                                     <br/>
@@ -914,11 +377,11 @@
                                     <input type="checkbox" class="check">
                                     <label class="form-check-label" ><span>30 Ml</span></label>
                                     <br />
-                                  
-                                   
+
+
                                 </div>
 
-                         
+
 
                                 <div  class="col-md-6">
                                     <input type="checkbox" class="check">
@@ -947,15 +410,15 @@
                                     <br />
                                     <input type="checkbox" class="check">
                                     <label class="form-check-label" for="exampleCheckbox2"><span>350 Ml</span></label>
-                                    
+
                                 </div>
                                 </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="product.html" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Fillter</a>
+                        <a href="/product" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Fillter</a>
                     </div>
-                   
+
                 </div>
 
 
@@ -978,8 +441,8 @@
                             <div class="sort-by-cover mr-10">
                                 <a href="" class="btn btn-sm btn-default filter"><i class="fi-rs-filter mr-5"></i> Fillter</a>
                             </div>
-                            
-                           
+
+
                         </div>
                     </div>
 
@@ -991,9 +454,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1004,9 +467,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1022,7 +485,7 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1033,9 +496,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1046,9 +509,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1064,7 +527,7 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1075,9 +538,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1088,9 +551,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1106,17 +569,17 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <!--end product card-->
-                          
-                             
-                          
-                                   
+
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -1127,9 +590,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1140,9 +603,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1158,7 +621,7 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1169,9 +632,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1182,9 +645,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1200,7 +663,7 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1211,9 +674,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1224,9 +687,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1242,19 +705,19 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <!--end product card-->
-                          
-                             
-                          
-                                   
+
+
+
+
                                 </div>
-                               
+
                             </div>
                         </div>
                         <div class="tab-pane fade" id="track-orders" role="tabpanel" aria-labelledby="track-orders-tab">
@@ -1264,9 +727,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1277,9 +740,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1295,7 +758,7 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1306,9 +769,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1319,9 +782,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1337,7 +800,7 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1348,9 +811,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1361,9 +824,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1379,17 +842,17 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <!--end product card-->
-                          
-                             
-                          
-                                   
+
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -1399,9 +862,9 @@
                                     <div class="product-cart-wrap mb-30">
                                         <div class="product-img-action-wrap">
                                             <div class="product-img product-img-zoom">
-                                                <a href="product-detail.html">
-                                                    <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                    <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                <a href="/product-detail">
+                                                    <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                    <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                 </a>
                                             </div>
                                             <div class="product-action-1">
@@ -1412,9 +875,9 @@
                                         </div>
                                         <div class="product-content-wrap">
                                             <div class="product-category">
-                                                <a href="product.html">Hodo Foods</a>
+                                                <a href="/product">Hodo Foods</a>
                                             </div>
-                                            <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                            <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                             <div class="product-rate-cover">
                                                 <!-- <div class="product-rate d-inline-block">
                                                     <div class="product-rating" style="width: 90%"></div>
@@ -1430,7 +893,7 @@
                                                     <span class="old-price">$55.8</span>
                                                 </div>
                                                 <div class="add-cart">
-                                                    <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                    <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1441,9 +904,9 @@
                                     <div class="product-cart-wrap mb-30">
                                         <div class="product-img-action-wrap">
                                             <div class="product-img product-img-zoom">
-                                                <a href="product-detail.html">
-                                                    <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                    <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                <a href="/product-detail">
+                                                    <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                    <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                 </a>
                                             </div>
                                             <div class="product-action-1">
@@ -1454,9 +917,9 @@
                                         </div>
                                         <div class="product-content-wrap">
                                             <div class="product-category">
-                                                <a href="product.html">Hodo Foods</a>
+                                                <a href="/product">Hodo Foods</a>
                                             </div>
-                                            <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                            <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                             <div class="product-rate-cover">
                                                 <!-- <div class="product-rate d-inline-block">
                                                     <div class="product-rating" style="width: 90%"></div>
@@ -1472,7 +935,7 @@
                                                     <span class="old-price">$55.8</span>
                                                 </div>
                                                 <div class="add-cart">
-                                                    <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                    <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1483,9 +946,9 @@
                                     <div class="product-cart-wrap mb-30">
                                         <div class="product-img-action-wrap">
                                             <div class="product-img product-img-zoom">
-                                                <a href="product-detail.html">
-                                                    <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                    <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                <a href="/product-detail">
+                                                    <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                    <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                 </a>
                                             </div>
                                             <div class="product-action-1">
@@ -1496,9 +959,9 @@
                                         </div>
                                         <div class="product-content-wrap">
                                             <div class="product-category">
-                                                <a href="product.html">Hodo Foods</a>
+                                                <a href="/product">Hodo Foods</a>
                                             </div>
-                                            <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                            <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                             <div class="product-rate-cover">
                                                 <!-- <div class="product-rate d-inline-block">
                                                     <div class="product-rating" style="width: 90%"></div>
@@ -1514,17 +977,17 @@
                                                     <span class="old-price">$55.8</span>
                                                 </div>
                                                 <div class="add-cart">
-                                                    <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                    <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!--end product card-->
-                      
-                         
-                      
-                               
+
+
+
+
                             </div>
                         </div>
                         <div class="tab-pane fade" id="account-detail" role="tabpanel" aria-labelledby="account-detail-tab">
@@ -1534,9 +997,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1547,9 +1010,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1565,7 +1028,7 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1576,9 +1039,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1589,9 +1052,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1607,7 +1070,7 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1618,9 +1081,9 @@
                                         <div class="product-cart-wrap mb-30">
                                             <div class="product-img-action-wrap">
                                                 <div class="product-img product-img-zoom">
-                                                    <a href="product-detail.html">
-                                                        <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                                        <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                    <a href="/product-detail">
+                                                        <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                                        <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="product-action-1">
@@ -1631,9 +1094,9 @@
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
-                                                    <a href="product.html">Hodo Foods</a>
+                                                    <a href="/product">Hodo Foods</a>
                                                 </div>
-                                                <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                                <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                                 <div class="product-rate-cover">
                                                     <!-- <div class="product-rate d-inline-block">
                                                         <div class="product-rating" style="width: 90%"></div>
@@ -1649,17 +1112,17 @@
                                                         <span class="old-price">$55.8</span>
                                                     </div>
                                                     <div class="add-cart">
-                                                        <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                        <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <!--end product card-->
-                          
-                             
-                          
-                                   
+
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -1693,9 +1156,9 @@
                             <div class="product-cart-wrap mb-30">
                                 <div class="product-img-action-wrap">
                                     <div class="product-img product-img-zoom">
-                                        <a href="product-detail.html">
-                                            <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                            <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                        <a href="/product-detail">
+                                            <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                            <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                         </a>
                                     </div>
                                     <div class="product-action-1">
@@ -1706,9 +1169,9 @@
                                 </div>
                                 <div class="product-content-wrap">
                                     <div class="product-category">
-                                        <a href="product.html">Hodo Foods</a>
+                                        <a href="/product">Hodo Foods</a>
                                     </div>
-                                    <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                    <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                     <div class="product-rate-cover">
                                         <!-- <div class="product-rate d-inline-block">
                                             <div class="product-rating" style="width: 90%"></div>
@@ -1724,7 +1187,7 @@
                                             <span class="old-price">$55.8</span>
                                         </div>
                                         <div class="add-cart">
-                                            <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                            <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                         </div>
                                     </div>
                                 </div>
@@ -1735,9 +1198,9 @@
                             <div class="product-cart-wrap mb-30">
                                 <div class="product-img-action-wrap">
                                     <div class="product-img product-img-zoom">
-                                        <a href="product-detail.html">
-                                            <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                            <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                        <a href="/product-detail">
+                                            <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                            <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                         </a>
                                     </div>
                                     <div class="product-action-1">
@@ -1748,9 +1211,9 @@
                                 </div>
                                 <div class="product-content-wrap">
                                     <div class="product-category">
-                                        <a href="product.html">Hodo Foods</a>
+                                        <a href="/product">Hodo Foods</a>
                                     </div>
-                                    <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                    <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                     <div class="product-rate-cover">
                                         <!-- <div class="product-rate d-inline-block">
                                             <div class="product-rating" style="width: 90%"></div>
@@ -1766,7 +1229,7 @@
                                             <span class="old-price">$55.8</span>
                                         </div>
                                         <div class="add-cart">
-                                            <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                            <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                         </div>
                                     </div>
                                 </div>
@@ -1777,9 +1240,9 @@
                             <div class="product-cart-wrap mb-30">
                                 <div class="product-img-action-wrap">
                                     <div class="product-img product-img-zoom">
-                                        <a href="product-detail.html">
-                                            <img class="default-img" src="assets/imgs/shop/product-6-1.jpg" alt="" />
-                                            <img class="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                        <a href="/product-detail">
+                                            <img class="default-img" src="imgs/shop/product-6-1.jpg" alt="" />
+                                            <img class="hover-img" src="imgs/shop/product-6-2.jpg" alt="" />
                                         </a>
                                     </div>
                                     <div class="product-action-1">
@@ -1790,9 +1253,9 @@
                                 </div>
                                 <div class="product-content-wrap">
                                     <div class="product-category">
-                                        <a href="product.html">Hodo Foods</a>
+                                        <a href="/product">Hodo Foods</a>
                                     </div>
-                                    <h2><a href="product-detail.html">Chobani Complete Vanilla Greek</a></h2>
+                                    <h2><a href="/product-detail">Chobani Complete Vanilla Greek</a></h2>
                                     <div class="product-rate-cover">
                                         <!-- <div class="product-rate d-inline-block">
                                             <div class="product-rating" style="width: 90%"></div>
@@ -1808,19 +1271,19 @@
                                             <span class="old-price">$55.8</span>
                                         </div>
                                         <div class="add-cart">
-                                            <a class="add" href="cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                            <a class="add" href="/cart"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!--end product card--
-              
-                 
-              
-                       
+
+
+
+
                     </div> -->
-                   
+
 
 
 
@@ -1860,7 +1323,7 @@
             <div class="mobile-header-wrapper-inner">
                 <div class="mobile-header-top">
                     <div class="mobile-header-logo">
-                        <a href="index.html"><img src="assets/imgs/theme/logo.png" alt="logo" /></a>
+                        <a href="/"><img src="imgs/theme/logo.png" alt="logo" /></a>
                     </div>
                     <div class="mobile-menu-close1 close-style-wrap close-style-position-inherit">
                         <button class="close-style search-close">
@@ -1873,7 +1336,7 @@
                <!-- Fillter By Price -->
                <div class="sidebar-widget price_range range mb-30 ml-30">
                 <h5 class="section-title style-1 mb-30">Fill by price</h5>
-               
+
                 <div class="list-group">
                     <div class="list-group-item mb-10 mt-10">
                         <label class="fw-900">Meterial</label>
@@ -1889,7 +1352,7 @@
                             <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="" />
                             <label class="form-check-label" for="exampleCheckbox3"><span>GLASS</span></label>
                             <br />
-                            
+
                             <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="" />
                             <label class="form-check-label" for="exampleCheckbox3"><span>PP</span></label>
                         </div>
@@ -1918,7 +1381,7 @@
                             <br />
                             <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="" />
                             <label class="form-check-label" for="exampleCheckbox3"><span>RECTANGLE</span></label>
-                           
+
                         </div>
 
                         <div  class="col-md-6">
@@ -1927,7 +1390,7 @@
                             <br />
                             <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox2" value="" />
                             <label class="form-check-label" for="exampleCheckbox2"><span>SQUARE</span></label>
-                            
+
                         </div>
                         </div>
                         </div>
@@ -1969,7 +1432,7 @@
                             <br />
                             <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox2" value="" />
                             <label class="form-check-label" for="exampleCheckbox2"><span>375 Ml</span></label>
-                           
+
                         </div>
 
                         <div  class="col-md-4">
@@ -2003,8 +1466,8 @@
                             <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox2" value="" />
                             <label class="form-check-label" for="exampleCheckbox2"><span>40 Ml</span></label>
 
-                            
-                            
+
+
                         </div>
 
                         <div  class="col-md-4">
@@ -2034,208 +1497,17 @@
                             <br />
                             <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox2" value="" />
                             <label class="form-check-label" for="exampleCheckbox2"><span>350 Ml</span></label>
-                            
+
                         </div>
                         </div>
                         </div>
                     </div>
                 </div>
-                <a href="product.html" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Fillter</a>
+                <a href="/product" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Fillter</a>
             </div>
 
 
             </div>
         </div>
     </main>
-    <footer class="main">
-        <section class="newsletter mb-15 wow animate__animated animate__fadeIn">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="position-relative newsletter-inner">
-                            <div class="newsletter-content">
-                                <h2 class="mb-20">
-                                    Stay home & get your daily <br />
-                                    needs from our shop
-                                </h2>
-                                <p class="mb-45">Start You'r Daily Shopping with <span class="text-brand">Winpolimers</span></p>
-
-                               
-
-
-
-                                <!-- <form class="form-subcriber d-flex">
-                                    <input type="email" placeholder="Find Me On Whatsapp" />
-                                      <a href="#"><img src="assets/imgs/theme/icons/whatsapp.svg"></a>
-                                    <button class="btn" type="submit">Subscribe</button>
-                                </form> -->
-                            </div>
-                            <img src="assets/imgs/banner/banner-9.png" alt="newsletter" />
-                            <div class="col-md-6">
-                                <a href="https://api.whatsapp.com/send?phone=+919497073174&amp;text=Hi" class="btn btn-sm1 mt-30" target="_blank">Find Me On Whatsapp<i class="fa fa-whatsapp ml-5" aria-hidden="true"></i></a>
-                                <!-- <div class="whatsapp">
-                                    
-                                        <h5>Find Me On Whatsapp</h5>
-                                        <a href="https://api.whatsapp.com/send?phone=+919497073174&amp;text=Hi"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-    
-                                   
-                                    
-                                </div> -->
-                            </div>
-                        </div>
-
-               
-                    </div>
-
-                    
-
-
-                </div>
-            </div>
-        </section>
-      
-    
-        <section class="section-padding footer-mid">
-            <div class="container pt-15 pb-20 col-xl-10 col-md-12 m-auto">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class=" font-md mb-md-3 mb-lg-3 mb-xl-0 wow animate__animated animate__fadeInUp" data-wow-delay="0">
-                            <div class="logo mb-30">
-                                <a href="index.html" class="mb-15"><img src="assets/imgs/theme/logo.png" alt="logo" /></a>
-                                <p class="font-lg text-heading">Discover why we are the preferred choice for plastic bottle manufacturing and wholesale in Kerala. Explore our wide range of products and let us help you find the perfect solution for your packaging needs. For more information or to discuss your project, please contact us today!</p>
-                            </div>
-                            <ul class="contact-infor">
-                                <li><img src="assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>: 5/520 Kanjany ,Thrissur KERALA</span></li>
-                                <li><img src="assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us: </strong><span>9846912216 | 9497073174</span></li>
-                                <li><img src="assets/imgs/theme/icons/icon-email-2.svg" alt="" /><strong>Email:</strong><span>winpolymerskny2@gmail.com</span></li>
-                                <!-- <li><img src="assets/imgs/theme/icons/icon-clock.svg" alt="" /><strong>Hours:</strong><span>10:00 - 18:00, Mon - Sat</span></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class=" col-md-3 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                        <h4 class=" widget-title">Quick Links</h4>
-                        <ul class="footer-list mb-sm-5 mb-md-0">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <!-- <li><a href="services.html">Services</a></li> -->
-                            
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <!-- <li><a href="#">Support Center</a></li>
-                            <li><a href="#">Careers</a></li> -->
-                        </ul>
-                    </div>
-                    
-                    <div class=" col-md-4 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
-                        <h4 class="widget-title">Products</h4>
-                        <ul class="footer-list mb-sm-5 mb-md-0">
-                            <li><a href="cosmetics-and-personal-care.html">COSMETICS & PERSONAL CARE</a></li>
-                            <li><a href="product.html">FOOD & BEVERAGES</a></li>
-                            <li><a href="product.html">PHARMACEUTICAL</a></li>
-                            <li><a href="product.html">HOME CARE & CHEMICALS</a></li>
-                            
-                        </ul>
-                    </div>
-                   
-                </div>
-        </section>
-        <div class="container pb-30 col-xl-10 col-md-12 m-auto wow animate__animated animate__fadeInUp" data-wow-delay="0">
-            <div class="row align-items-center">
-                <div class="col-12 mb-30">
-                    <div class="footer-bottom"></div>
-                </div>
-                <!-- <div class="col-xl-3 col-lg-6 col-md-6">
-                    <p class="font-sm mb-0">&copy; 2022, <strong class="text-brand">Nest</strong> - HTML Ecommerce Template <br />All rights reserved</p>
-                </div> -->
-                <div class="col-xl-6 col-lg-6 text-center d-none d-xl-block">
-                    <div class="hotline d-flex mr-30">
-                        <img src="assets/imgs/theme/icons/phone-call.svg" alt="hotline" />
-                        <p>9846912216 | 9497073174</p>
-                    </div>
-                    <!-- <div class="hotline d-lg-inline-flex">
-                        <img src="assets/imgs/theme/icons/phone-call.svg" alt="hotline" />
-                        <p>9497073174</p>
-                    </div> -->
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 text-end d-none d-md-block">
-                    <div class="mobile-social-icon">
-                        <h6>Follow Us</h6>
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-                        <!-- <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a> -->
-                        <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
-                    </div>
-                    <!-- <p class="font-sm">Up to 15% discount on your first subscribe</p> -->
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="text-center zoom-in-zoom-out">
-                    <img src="assets/imgs/theme/loader.png" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Vendor JS-->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/plugins/slick.js"></script>
-    <script src="assets/js/plugins/jquery.syotimer.min.js"></script>
-    <script src="assets/js/plugins/wow.js"></script>
-    <script src="assets/js/plugins/slider-range.js"></script>
-    <script src="assets/js/plugins/perfect-scrollbar.js"></script>
-    <script src="assets/js/plugins/magnific-popup.js"></script>
-    <script src="assets/js/plugins/select2.min.js"></script>
-    <script src="assets/js/plugins/waypoints.js"></script>
-    <script src="assets/js/plugins/counterup.js"></script>
-    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
-    <script src="assets/js/plugins/images-loaded.js"></script>
-    <script src="assets/js/plugins/isotope.js"></script>
-    <script src="assets/js/plugins/scrollup.js"></script>
-    <script src="assets/js/plugins/jquery.vticker-min.js"></script>
-    <script src="assets/js/plugins/jquery.theia.sticky.js"></script>
-    <script src="assets/js/plugins/jquery.elevatezoom.js"></script>
-    <!-- Template  JS -->
-    <script src="./assets/js/main.js?v=5.6"></script>
-    <script src="./assets/js/shop.js?v=5.6"></script>
-
-
-
-    <script>
-
-        function mobileHeaderActive() {
-        var navbarTrigger = $(".sort-by-cover"),
-            endTrigger = $(".mobile-menu-close1"),
-            container = $(".mobile-header-active1"),
-            wrapper4 = $("body");
-
-        wrapper4.prepend('<div class="body-overlay-1"></div>');
-
-        navbarTrigger.on("click", function (e) {
-            e.preventDefault();
-            container.addClass("sidebar-visible");
-            wrapper4.addClass("mobile-menu-active");
-        });
-
-        endTrigger.on("click", function () {
-            container.removeClass("sidebar-visible");
-            wrapper4.removeClass("mobile-menu-active");
-        });
-
-        $(".body-overlay-1").on("click", function () {
-            container.removeClass("sidebar-visible");
-            wrapper4.removeClass("mobile-menu-active");
-        });
-    }
-    mobileHeaderActive();
-    </script>
-
-</body>
-
-</html>
+    @endsection

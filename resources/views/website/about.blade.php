@@ -4,7 +4,7 @@
         <!-- <div class="page-header breadcrumb-wrap">
             <div class="container">
                 <div class="breadcrumb">
-                    <a href="index.html" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+                    <a href="/" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
                     <span></span> Pages <span></span> About us
                 </div>
             </div>
@@ -192,4 +192,6 @@
             </div>
         </div>
     </main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15693.044502290126!2d76.1219321!3d10.4800695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f37e22d4c665%3A0x8a0a1641255748ac!2sWin%20Polymers%20Manufacturers%20of%20PET%20bottle%20and%20HDPE%20bottles!5e0!3m2!1sen!2sin!4v1710609900696!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     @endsection

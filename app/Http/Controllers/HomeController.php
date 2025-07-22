@@ -29,4 +29,36 @@ class HomeController extends Controller
     {
         return view('website.about');
     }
+     public function product()
+    {
+        return view('website.product');
+    }
+    public function contact()
+    {
+        return view('website.contact');
+    }
+    public function pharmaceutical()
+    {
+        return view('website.pharmaceutical');
+    }
+    public function cosmeticspersonalcare()
+    {
+        return view('website.cosmetics-and-personal-care');
+    }
+     public function oil()
+    {
+        return view('website.oil');
+    }
+     public function productDetail()
+    {
+        return view('website.product-detail');
+    }
+    public function cart()
+    {
+        return view('website.cart');
+    }
+    public function checkout()
+    {
+        return view('website.checkout');
+    }
 }

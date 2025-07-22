@@ -108,7 +108,7 @@
 
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/ayurvedhic/AY04.jpg" alt="" />
                                 </a>
 
@@ -116,7 +116,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/oil/10.jpg" alt="" />
                                 </a>
 
@@ -124,7 +124,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/sanitizer/1.jpg" alt="" />
                                 </a>
 
@@ -133,7 +133,7 @@
 
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/shop/fp-hand.jpg" alt="" />
                                 </a>
 
@@ -141,7 +141,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/thinner/1.jpg" alt="" />
                                 </a>
 
@@ -149,7 +149,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/ayurvedhic/ay06h.jpg" alt="" />
                                 </a>
 
@@ -157,7 +157,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/oil/14.jpg" alt="" />
                                 </a>
 
@@ -165,7 +165,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/sanitizer/15.jpg" alt="" />
                                 </a>
 
@@ -173,7 +173,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/ayurvedhic/ay08.jpg" alt="" />
                                 </a>
 
@@ -182,7 +182,7 @@
 
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/thinner/4.jpg" alt="" />
                                 </a>
 
@@ -201,7 +201,7 @@
 
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/shop/fp-hand.jpg" alt="" />
                                 </a>
 
@@ -209,7 +209,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/shop/fp-pharma.jpg" alt="" />
                                 </a>
 
@@ -217,7 +217,7 @@
                             <!--end product card-->
 
                             <div class="col-lg-1-1 col-md-4 col-12 col-sm-6">
-                                <a href="pharmaceutical.html">
+                                <a href="/pharmaceutical">
                                     <img class="featured-product" src="imgs/shop/fp-hand1.jpg" alt="" />
                                 </a>
 

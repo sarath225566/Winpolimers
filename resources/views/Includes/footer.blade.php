@@ -45,14 +45,14 @@
             </div>
         </section>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15693.044502290126!2d76.1219321!3d10.4800695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f37e22d4c665%3A0x8a0a1641255748ac!2sWin%20Polymers%20Manufacturers%20of%20PET%20bottle%20and%20HDPE%20bottles!5e0!3m2!1sen!2sin!4v1710609900696!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15693.044502290126!2d76.1219321!3d10.4800695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f37e22d4c665%3A0x8a0a1641255748ac!2sWin%20Polymers%20Manufacturers%20of%20PET%20bottle%20and%20HDPE%20bottles!5e0!3m2!1sen!2sin!4v1710609900696!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
         <section class="section-padding footer-mid">
             <div class="container pt-15 pb-20 col-xl-10 col-md-12 m-auto">
                 <div class="row">
                     <div class="col-md-5">
                         <div class=" font-md mb-md-3 mb-lg-3 mb-xl-0 wow animate__animated animate__fadeInUp" data-wow-delay="0">
                             <div class="logo mb-30">
-                                <a href="index.html" class="mb-15"><img src="imgs/theme/logo.png" alt="logo" /></a>
+                                <a href="/" class="mb-15"><img src="imgs/theme/logo.png" alt="logo" /></a>
                                 <p class="font-lg text-heading">Discover why we are the preferred choice for plastic bottle manufacturing and wholesale in Kerala. Explore our wide range of products and let us help you find the perfect solution for your packaging needs. For more information or to discuss your project, please contact us today!</p>
                             </div>
                             <ul class="contact-infor">
@@ -66,8 +66,8 @@
                     <div class=" col-md-3 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                         <h4 class=" widget-title">Quick Links</h4>
                         <ul class="footer-list mb-sm-5 mb-md-0">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about">About Us</a></li>
                             <!-- <li><a href="services.html">Services</a></li> -->
 
                             <li><a href="contact.html">Contact Us</a></li>
@@ -80,9 +80,9 @@
                         <h4 class="widget-title">Products</h4>
                         <ul class="footer-list mb-sm-5 mb-md-0">
                             <li><a href="cosmetics-and-personal-care.html">COSMETICS & PERSONAL CARE</a></li>
-                            <li><a href="product.html">FOOD & BEVERAGES</a></li>
-                            <li><a href="product.html">PHARMACEUTICAL</a></li>
-                            <li><a href="product.html">HOME CARE & CHEMICALS</a></li>
+                            <li><a href="/product">FOOD & BEVERAGES</a></li>
+                            <li><a href="/product">PHARMACEUTICAL</a></li>
+                            <li><a href="/product">HOME CARE & CHEMICALS</a></li>
 
                         </ul>
                     </div>

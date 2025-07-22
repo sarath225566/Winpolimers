@@ -64,7 +64,7 @@
             <div class="container pt-15 pb-20 col-xl-10 col-md-12 m-auto">
                 <div class="header-wrap">
                     <div class="logo logo-width-1">
-                        <a href="index.html"><img src="imgs/theme/logo.png" alt="logo" /></a>
+                        <a href="/"><img src="imgs/theme/logo.png" alt="logo" /></a>
                     </div>
 
                     <div class="header-right">
@@ -85,17 +85,17 @@
                                         </li>
 
                                         <li>
-                                            <a href="product.html">Products <i class="fi-rs-angle-down"></i></a>
+                                            <a href="/product">Products <i class="fi-rs-angle-down"></i></a>
                                             <ul class="sub-menu">
-                                                <li><a href="pharmaceutical.html">Pharmaceutical</a></li>
-                                                <li><a href="product.html">Oil Bottles</a></li>
-                                                <li><a href="product.html">⁠Honey and Squash</a></li>
-                                                <li><a href="product.html">⁠Juices</a></li>
+                                                <li><a href="/pharmaceutical">Pharmaceutical</a></li>
+                                                <li><a href="/product">Oil Bottles</a></li>
+                                                <li><a href="/product">⁠Honey and Squash</a></li>
+                                                <li><a href="/product">⁠Juices</a></li>
 
-                                                <li><a href="cosmetics-and-personal-care.html">PET Jars</a></li>
-                                                <li><a href="product.html">Thinner and Phenyl</a></li>
-                                                <li><a href="product.html">Mineral Water</a></li>
-                                                <li><a href="product.html">⁠HDPE Bottles</a></li>
+                                                <li><a href="/cosmetics-and-personal-care">PET Jars</a></li>
+                                                <li><a href="/product">Thinner and Phenyl</a></li>
+                                                <li><a href="/product">Mineral Water</a></li>
+                                                <li><a href="/product">⁠HDPE Bottles</a></li>
 
                                             </ul>
                                         </li>
@@ -106,7 +106,8 @@
 
 
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a class="active" href="/contact">Contact</a>
+                                            {{-- <a href="/contact">Contact</a> --}}
                                         </li>
                                     </ul>
                                 </nav>
@@ -122,10 +123,10 @@
                                     <div class="d-flex categori-dropdown-inner">
                                         <ul>
                                             <li>
-                                                <a href="pharmaceutical.html"> <img src="imgs/theme/icons/cosmetics.png" alt="" />Pharmaceutical</a>
+                                                <a href="/pharmaceutical"> <img src="imgs/theme/icons/cosmetics.png" alt="" />Pharmaceutical</a>
                                             </li>
                                             <li>
-                                                <a href="oil.html"> <img src="imgs/theme/icons/food.png" alt="" />Oil Bottles</a>
+                                                <a href="/oil"> <img src="imgs/theme/icons/food.png" alt="" />Oil Bottles</a>
                                             </li>
 
                                         </ul>
@@ -144,19 +145,19 @@
                                     <div class="d-flex categori-dropdown-inner">
                                         <ul>
                                             <li>
-                                                <a href="product.html"> <img src="imgs/theme/icons/cosmetics.png" alt="" />PET Jars</a>
+                                                <a href="/product"> <img src="imgs/theme/icons/cosmetics.png" alt="" />PET Jars</a>
                                             </li>
                                             <li>
-                                                <a href="product.html"> <img src="imgs/theme/icons/food.png" alt="" />Thinner & Phenyl</a>
+                                                <a href="/product"> <img src="imgs/theme/icons/food.png" alt="" />Thinner & Phenyl</a>
                                             </li>
 
                                         </ul>
                                         <ul >
                                             <li>
-                                                <a href="product.html"> <img src="imgs/theme/icons/pharmaceutical.png" alt="" />Mineral Water</a>
+                                                <a href="/product"> <img src="imgs/theme/icons/pharmaceutical.png" alt="" />Mineral Water</a>
                                             </li>
                                             <li>
-                                                <a href="product.html"> <img src="imgs/theme/icons/homecare.png" alt="" />HDPE Bottles</a>
+                                                <a href="/product"> <img src="imgs/theme/icons/homecare.png" alt="" />HDPE Bottles</a>
                                             </li>
 
                                         </ul>
@@ -181,15 +182,15 @@
                                         <img alt="Nest" src="imgs/theme/icons/icon-cart.svg" />
                                         <span class="pro-count blue">2</span>
                                     </a>
-                                    <a href="cart.html"><span class="lable"></span></a>
+                                    <a href="/cart"><span class="lable"></span></a>
                                     <div class="cart-dropdown-wrap cart-dropdown-hm2">
                                         <ul>
                                             <li>
                                                 <div class="shopping-cart-img">
-                                                    <a href="product-detail.html"><img alt="Nest" src="imgs/shop/thumbnail-3.jpg" /></a>
+                                                    <a href="/product-detail"><img alt="Nest" src="imgs/shop/thumbnail-3.jpg" /></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
-                                                    <h4><a href="product-detail.html">Daisy Casual Bag</a></h4>
+                                                    <h4><a href="/product-detail">Daisy Casual Bag</a></h4>
                                                     <h4><span>1 × </span>$800.00</h4>
                                                 </div>
                                                 <div class="shopping-cart-delete">
@@ -198,10 +199,10 @@
                                             </li>
                                             <li>
                                                 <div class="shopping-cart-img">
-                                                    <a href="product-detail.html"><img alt="Nest" src="imgs/shop/thumbnail-2.jpg" /></a>
+                                                    <a href="/product-detail"><img alt="Nest" src="imgs/shop/thumbnail-2.jpg" /></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
-                                                    <h4><a href="product-detail.html">Corduroy Shirts</a></h4>
+                                                    <h4><a href="/product-detail">Corduroy Shirts</a></h4>
                                                     <h4><span>1 × </span>$3200.00</h4>
                                                 </div>
                                                 <div class="shopping-cart-delete">
@@ -214,8 +215,8 @@
                                                 <h4>Total <span>$4000.00</span></h4>
                                             </div>
                                             <div class="shopping-cart-button">
-                                                <a href="cart.html" class="outline">View cart</a>
-                                                <a href="checkout.html">Checkout</a>
+                                                <a href="/cart" class="outline">View cart</a>
+                                                <a href="/checkout">Checkout</a>
                                             </div>
                                         </div>
                                     </div>
@@ -231,7 +232,7 @@
             <div class="container">
                 <div class="header-wrap header-space-between position-relative">
                     <div class="logo logo-width-1 d-block d-lg-none">
-                        <a href="index.html"><img src="imgs/theme/logo.png" alt="logo" /></a>
+                        <a href="/"><img src="imgs/theme/logo.png" alt="logo" /></a>
                     </div>
 
 
@@ -258,10 +259,10 @@
                                     <ul>
                                         <li>
                                             <div class="shopping-cart-img">
-                                                <a href="product-detail.html"><img alt="Nest" src="imgs/shop/thumbnail-3.jpg" /></a>
+                                                <a href="/product-detail"><img alt="Nest" src="imgs/shop/thumbnail-3.jpg" /></a>
                                             </div>
                                             <div class="shopping-cart-title">
-                                                <h4><a href="product-detail.html">Plain Striola Shirts</a></h4>
+                                                <h4><a href="/product-detail">Plain Striola Shirts</a></h4>
                                                 <h3><span>1 × </span>$800.00</h3>
                                             </div>
                                             <div class="shopping-cart-delete">
@@ -270,10 +271,10 @@
                                         </li>
                                         <li>
                                             <div class="shopping-cart-img">
-                                                <a href="product-detail.html"><img alt="Nest" src="imgs/shop/thumbnail-4.jpg" /></a>
+                                                <a href="/product-detail"><img alt="Nest" src="imgs/shop/thumbnail-4.jpg" /></a>
                                             </div>
                                             <div class="shopping-cart-title">
-                                                <h4><a href="product-detail.html">Macbook Pro 2022</a></h4>
+                                                <h4><a href="/product-detail">Macbook Pro 2022</a></h4>
                                                 <h3><span>1 × </span>$3500.00</h3>
                                             </div>
                                             <div class="shopping-cart-delete">
@@ -286,8 +287,8 @@
                                             <h4>Total <span>$383.00</span></h4>
                                         </div>
                                         <div class="shopping-cart-button">
-                                            <a href="cart.html">View cart</a>
-                                            <a href="checkout.html">Checkout</a>
+                                            <a href="/cart">View cart</a>
+                                            <a href="/checkout">Checkout</a>
                                         </div>
                                     </div>
                                 </div>
@@ -319,7 +320,7 @@
         <div class="mobile-header-wrapper-inner">
             <div class="mobile-header-top">
                 <div class="mobile-header-logo">
-                    <a href="index.html"><img src="imgs/theme/logo.png" alt="logo" /></a>
+                    <a href="/"><img src="imgs/theme/logo.png" alt="logo" /></a>
                 </div>
                 <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
                     <button class="close-style search-close">
@@ -335,28 +336,28 @@
                     <nav>
                         <ul class="mobile-menu font-heading">
                             <li class="menu-item-has-children">
-                                <a href="index.html">Home</a>
+                                <a href="/">Home</a>
 
 
                             </li>
 
                             <li>
 
-                                <a href="about.html"> About</a>
+                                <a href="/about"> About</a>
                             </li>
 
                             <li class="menu-item-has-children">
-                                <a href="product.html">Products <i class="fi-rs-angle-down"></i></a>
+                                <a href="/product">Products <i class="fi-rs-angle-down"></i></a>
                                 <ul class="dropdown">
-                                    <li><a href="pharmaceutical.html">Pharmaceutical</a></li>
-                                    <li><a href="product.html">Oil Bottles</a></li>
-                                    <li><a href="product.html">⁠Honey and Squash</a></li>
-                                    <li><a href="product.html">⁠Juices</a></li>
+                                    <li><a href="/pharmaceutical">Pharmaceutical</a></li>
+                                    <li><a href="/product">Oil Bottles</a></li>
+                                    <li><a href="/product">⁠Honey and Squash</a></li>
+                                    <li><a href="/product">⁠Juices</a></li>
 
-                                    <li><a href="cosmetics-and-personal-care.html">PET Jars</a></li>
-                                    <li><a href="product.html">Thinner and Phenyl</a></li>
-                                    <li><a href="product.html">Mineral Water</a></li>
-                                    <li><a href="product.html">⁠HDPE Bottles</a></li>
+                                    <li><a href="/cosmetics-and-personal-care">PET Jars</a></li>
+                                    <li><a href="/product">Thinner and Phenyl</a></li>
+                                    <li><a href="/product">Mineral Water</a></li>
+                                    <li><a href="/product">⁠HDPE Bottles</a></li>
 
                                 </ul>
                             </li>
